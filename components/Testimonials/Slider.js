@@ -8,11 +8,12 @@ SwiperCore.use([Pagination]);
 function Slider() {
   const pagination = {
     clickable: true,
+    
   };
   return (
     <div id='testimonial_slider' className='p-8 sm:p-12'>
       {data.length > 0 ? (
-        <Swiper pagination={pagination} spaceBetween={10} slidesPerView={1}>
+        <Swiper pagination={pagination} autoHeight={true} spaceBetween={10} slidesPerView={1}>
           {data.map((item) => (
             <SwiperSlide key={item.name}>
               <Slides data={item} />

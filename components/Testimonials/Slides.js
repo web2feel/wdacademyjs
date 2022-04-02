@@ -4,10 +4,10 @@ function Slides({ data }) {
   let hashed = md5(data.email);
   return (
     <div className='flex flex-col sm:flex-row  w-full justify-between items-start gap-8'>
-      <div className='w-full sm:w-1/4 flex items-center justify-center'>
+      {/* <div className='w-full sm:w-1/4 flex items-center justify-center'>
         <Gravatar md5={hashed} size={100} className='rounded-full' />
-      </div>
-      <div className='w-full sm:w-3/4 text-white'>
+      </div> */}
+      <div className='w-full px-6 text-white'>
         <svg
           className='text-white fill-current mb-6'
           width='24'
@@ -17,7 +17,7 @@ function Slides({ data }) {
         </svg>
         <div className='mb-8' dangerouslySetInnerHTML={{__html:data.message}}/>
         <h3 className='text-xl'>{data.name}</h3>
-        <p className="text-sm">{data.title}  {` - ${data.place}`}</p>
+        {/* <p className="text-sm">{data.title}  {` - ${data.place}`}</p> */}
       </div>
     </div>
   );
