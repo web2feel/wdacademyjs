@@ -1,0 +1,50 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+  @apply text-gray-600;
+}
+
+.hero-container {
+  min-height: calc(100vh - theme("spacing.28"));
+}
+
+#jobs_slider {
+  .swiper-container {
+    @apply pb-12;
+  }
+  .swiper-slide {
+    @apply h-auto;
+  }
+  .swiper-pagination {
+    @apply bottom-0;
+    .swiper-pagination-bullet {
+      @apply w-4 h-4 rounded-full opacity-100 border-2 border-gray-300 bg-white shadow-none;
+    }
+    .swiper-pagination-bullet-active {
+      @apply bg-sky-500 border-0;
+    }
+  }
+}
+#testimonial_slider {
+  .swiper-container {
+    @apply pb-12;
+  }
+  .swiper-pagination {
+    @apply bottom-0 text-right;
+    .swiper-pagination-bullet {
+      @apply w-4 h-4 rounded-full border-2 border-white bg-sky-500 opacity-100 shadow-none;
+    }
+    .swiper-pagination-bullet-active {
+      @apply bg-white;
+    }
+  }
+}
+
+// .player-wrapper {
+//   position: relative;
+//   padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+//   width: 100%;
+//   height: 100vh;
+//   margin: 0px auto;
+// }

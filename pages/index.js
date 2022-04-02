@@ -1,0 +1,35 @@
+import Head from "next/head";
+import Image from "next/image";
+import Layout from "../components/Layout";
+import Main from "../components/Main";
+import Tutors from "../components/Tutors";
+import Hero from "../components/Hero";
+import CourseStack from "../components/CourseStack";
+import Projects from "../components/Projects";
+import Testimonials from "../components/Testimonials";
+import Contact from "../components/Contact";
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>Webdiary Academy</title>
+        <meta
+          name='description'
+          content='Kickstart Your Front End Development Career'
+        />
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
+
+      <Layout>
+        <Main>
+          <Hero />
+          <Tutors />
+          <Projects />
+          <Testimonials />
+          <Contact />
+        </Main>
+      </Layout>
+    </>
+  );
+}
