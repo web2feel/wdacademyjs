@@ -20,6 +20,9 @@ function Contact() {
               <p className='text-xl my-2'>
                 Join us on this journey, for you to become a frontend developer.
               </p>
+              <p className=' text-sm animate-bounce my-2 bg-yellow-100 px-4 py-2 border border-yellow-400 rounded-xl font-bold text-yellow-800'>
+                Classes begin on April 18, 2022
+              </p>
               <a
                 href='https://pages.razorpay.com/wdacademyjs'
                 target='_blank'
