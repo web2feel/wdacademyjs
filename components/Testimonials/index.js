@@ -11,6 +11,9 @@ function Testimonials() {
             <SectionTitle>
               Student <br /> Testimonials
             </SectionTitle>
+            <p className="w-4/5">
+              Few testimonials from our last batch students.
+            </p>
           </div>
           <div
             data-scroll

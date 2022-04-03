@@ -21,7 +21,7 @@ function Contact() {
                 Join us on this journey, for you to become a frontend developer.
               </p>
               <a
-                href='https://pages.razorpay.com'
+                href='https://pages.razorpay.com/wdacademyjs'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='bg-sky-500 hover:bg-sky-600 transform-gpu duration-300 rounded-full py-3 px-12 mt-6 text-white font-bold text-lg'>
