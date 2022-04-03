@@ -34,11 +34,10 @@ function VideoModal({ showModal, closeModal, id }) {
       <div className='player-wrapper bg-black p-2'>
         <ReactPlayer
           className= 'aspect-w-16 aspect-h-9'
-          url='https://www.youtube.com/watch?v=sdyaprjgU3E'
+          url={`https://www.youtube.com/watch?v=${id}`}
           controls={true}
           playing={true}
           width='80vw'
-          //height='80vh'
         />
       </div>
     </div>
