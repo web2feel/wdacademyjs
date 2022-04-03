@@ -12,14 +12,14 @@ function Projects() {
             <SectionTitle>
               Projects <br /> list
             </SectionTitle>
-            <p className="w-4/5 mb-4">
+            <p className="w-4/5 mb-6">
               The most obvious reason for learning JavaScript is if you have
               hopes of becoming a web developer. Even if you havent got your
               heart set on a tech career, being proficient in this language will
               enable you to build websites from scratch—a pretty useful skill to
               have in todays job market!
             </p>{" "}
-            <p className="w-4/5 mb-4">
+            <p className="w-4/5 mb-6">
               If you want to become a Full Stack developer, you must have a
               decent knowledge about JS. Once you know the JS, you can explore
               more on Vue js , React JS, Node JS, MongoDB etc
