@@ -64,7 +64,7 @@ export const data = [
     place:"",
     name: "Jithin Raj",
     message:`
-    <p>Orupad js class YouTubil kandekilum manasinu satisfaction kittiyath webdairy class start cheythapozhanu .actually enne kond ithonnum kazhiyilaa ennullaa attitude Maariyath eee js class kazhijapol ann .pradeep sir and jinson sir Eduthaa effort cheruthonnumalla.ente kayil full amount edukaan illannu parachapo pradeep sirnte vaakukal orupad inspire cheypichu.enne pole ulla oru alk manasilaakan pattanaa athraa simple aayitanu oro topicsum cover cheythath.</p>
+    <p>Orupad js class YouTubil kandekilum manasinu satisfaction kittiyath webdairy class start cheythapozhanu. Actually enne kond ithonnum kazhiyilaa ennullaa attitude maariyath eee js class kazhijapol aanu .Pradeep sir and Jinson sir eduthaa effort cheruthonnumalla.Enne pole ulla oru alk manasilaakan pattanaa athraa simple aayitanu oro topicsum cover cheythath.</p>
     `,
   },
   {

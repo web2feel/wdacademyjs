@@ -8,6 +8,7 @@ import CourseStack from "../components/CourseStack";
 import Projects from "../components/Projects";
 import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
+import Special from "../components/Special";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Layout>
         <Main>
           <Hero />
+          <Special />
           <Tutors />
           <Projects />
           <Testimonials />
