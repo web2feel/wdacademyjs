@@ -25,7 +25,7 @@ export default function Home() {
       <Layout>
         <Main>
           <Hero />
-          <Special />
+          {/* <Special /> */}
           <Tutors />
           <Projects />
           <Testimonials />
