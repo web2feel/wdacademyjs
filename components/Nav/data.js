@@ -1,7 +1,7 @@
 export const menuData = [
   "Home",
   "About",
-  "Projects",
+  "Course details",
   "Testimonials",
   "Join Now",
 ];

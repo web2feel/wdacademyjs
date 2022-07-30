@@ -27,20 +27,20 @@ function Hero() {
                 data-scroll
                 data-scroll-speed='2'
                 className='text-2xl sm:text-3xl lg:text-6xl text-gray-800 font-black'>
-                Level Up your <br /> JavaScript skills
+                Kickstart your React JS <br /> Developer Career
               </h1>
               <p
                 data-scroll
                 data-scroll-speed='1.5'
                 className='sm:text-xl text-gray-600'>
                 We present you an opportunity to learn and level up your
-                JavaScript knowledge. Join us and complete 10 guided JavaScript
-                Projects that will help you sharpen your JS skills. 
+                knowledge of React JS . Come and join us on this journey to master the most popular 
+                JavaScript library for front-end development. 
               </p>
               <div data-scroll data-scroll-speed='1' className='flex gap-8'>
                 <Button classes='py-3 px-10 text-lg '>
                   <a data-scroll-to href='#projects'>
-                    Projects List
+                    Course Details
                   </a>
                 </Button>
                 <div

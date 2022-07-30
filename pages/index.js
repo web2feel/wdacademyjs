@@ -17,7 +17,7 @@ export default function Home() {
         <title>Webdiary Academy</title>
         <meta
           name='description'
-          content='Kickstart Your Front End Development Career'
+          content='Kickstart Your ReactJS Developer Career'
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>

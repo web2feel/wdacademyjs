@@ -10,7 +10,7 @@ function Projects() {
         <div className='flex-col flex sm:flex-row justify-between'>
           <div className='w-full sm:w-1/3'>
             <SectionTitle>
-              Projects <br /> list
+              Course <br /> Info
             </SectionTitle>
             <p className="w-4/5 mb-6">
               The most obvious reason for learning JavaScript is if you have
