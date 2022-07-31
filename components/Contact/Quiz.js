@@ -46,7 +46,7 @@ function Quiz({ setResult, result }) {
           <h3 className='text-lg mb-3 font-bold'>
             1. Which among the following is NOT a Logical Operator ?
           </h3>
-          <div className='flex gap-6'>
+          <div className='flex flex-col md:flex-row  gap-6'>
             <div>
               <input
                 onChange={handleKeyOne}
@@ -88,7 +88,7 @@ function Quiz({ setResult, result }) {
           <h3 className='text-lg mb-3 font-bold'>
             2. Which Array property returns the number of elements in an array ?
           </h3>
-          <div className='flex gap-6'>
+          <div className='flex flex-col md:flex-row  gap-6'>
             <div>
               <input
                 onChange={handleKeyTwo}
@@ -130,7 +130,7 @@ function Quiz({ setResult, result }) {
           <h3 className='text-lg mb-3 font-bold'>
             3. Which variable does NOT have Block Scope ?
           </h3>
-          <div className='flex gap-6'>
+          <div className='flex flex-col md:flex-row  gap-6'>
             <div>
               <input
                 onChange={handleKeyThree}
