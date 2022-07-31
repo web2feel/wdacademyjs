@@ -1,0 +1,9 @@
+.accordBody{
+    height: 0;
+    overflow: hidden;
+    transition: 0.5ms all;
+}
+
+.accordBody.open{
+    height:auto;
+}

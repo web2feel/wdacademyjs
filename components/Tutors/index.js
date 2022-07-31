@@ -8,7 +8,7 @@ function Tutors() {
       <Section>
         <div
           id='about_content'
-          className='flex flex-col items-center sm:flex-row gap-x-6'>
+          className='flex flex-col items-center sm:flex-row '>
           <div
             data-scroll
             data-scroll-speed='-1'

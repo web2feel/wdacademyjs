@@ -5,7 +5,7 @@ import Main from "../components/Main";
 import Tutors from "../components/Tutors";
 import Hero from "../components/Hero";
 import CourseStack from "../components/CourseStack";
-import Projects from "../components/Projects";
+import Projects from "../components/CourseInfo";
 import Testimonials from "../components/Testimonials";
 import Contact from "../components/Contact";
 import Special from "../components/Special";

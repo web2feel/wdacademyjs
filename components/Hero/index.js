@@ -1,7 +1,7 @@
 import Section from "../Blocks/Section";
 import { useState, useRef, useEffect, useContext } from "react";
 import Button from "../Blocks/Button";
-import HeroPic from "./assets/hero.svg";
+import HeroPic from "./assets/developer.gif";
 import VideoModal from "./VideoModal";
 import Image from "next/image";
 import animation from "../../utils/animation";
@@ -39,7 +39,7 @@ function Hero() {
               </p>
               <div data-scroll data-scroll-speed='1' className='flex gap-8'>
                 <Button classes='py-3 px-10 text-lg '>
-                  <a data-scroll-to href='#projects'>
+                  <a data-scroll-to href='#course_details'>
                     Course Details
                   </a>
                 </Button>
@@ -59,7 +59,7 @@ function Hero() {
                   </svg>
                 </div>
                 <VideoModal
-                  id='KZkimJCfAqI'
+                  id='6I6s-Anigoo'
                   showModal={showModal}
                   closeModal={() => setShowModal(false)}></VideoModal>
               </div>
