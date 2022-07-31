@@ -17,7 +17,7 @@ function Contact() {
           <div className='w-full flex-col sm:w-2/3'>
             <div className='flex flex-col justify-center items-start'>
               <h3 className='text-3xl text-gray-800'>
-                Take your first step here
+                Take your first step here 
               </h3>
 
               {/* <p className=' text-sm animate-bounce my-2 bg-yellow-100 px-4 py-2 border border-yellow-400 rounded-xl font-bold text-yellow-800'>
