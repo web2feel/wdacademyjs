@@ -21,6 +21,7 @@ function Projects() {
             </p>
           </div>
           <div className='w-full sm:w-2/3 '>
+            <h3 className="mb-6 text-2xl font-bold animate-bounce text-sky-600 text-center">Learn through this Project based ReactJS Course </h3>
             <Accordion />
           </div>
         </div>

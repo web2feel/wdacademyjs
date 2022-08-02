@@ -172,7 +172,7 @@ function Quiz({ setResult, result }) {
           {           
             visibility && (
               <p
-                className={`bg-red-100 flex-1 px-4 py-2 rounded text-red-500 text-center`}>
+                className={`bg-red-100 flex-1 px-4 py-2 rounded text-red-500 text-center border border-red-200`}>
                 {" "}
                 Please try again{" "}
               </p>
