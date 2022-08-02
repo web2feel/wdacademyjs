@@ -1,10 +1,10 @@
 import Section from "../Blocks/Section";
 import SectionTitle from "../Blocks/SectionTitle";
 //import Subscribe from "./Subscribe";
-import { useState } from "react";
+//import { useState } from "react";
 import Quiz from "./Quiz";
 function Contact() {
-  const [result, setResult] = useState(null);
+  //const [result, setResult] = useState(null);
   return (
     <div id='join_now' className='py-8 sm:py-20 bg-sky-100'>
       <Section>
@@ -24,19 +24,18 @@ function Contact() {
                   Timing: 9:30PM - 10:30PM IST
               </p> */}
 
-              {result ? (
-                <>
-                <p className="text-xl my-2">Thank you for completing the quiz successfuly.</p>
+              
+               
+                <p className="text-xl my-2">Please note, a minimum knowledge in JavaScript language is expected from the students who wish to join this course.</p>
                 <a
                   href='https://pages.razorpay.com/reactrecipe'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='bg-sky-500 hover:bg-sky-600 transform-gpu duration-300 rounded-full py-3 px-12 mt-6 text-white font-bold text-lg'>
                   Join Now
-                </a></>
-              ) : (
-                <Quiz setResult={setResult} result={result} />
-              )}
+                </a>
+                
+      
             </div>
           </div>
         </div>
