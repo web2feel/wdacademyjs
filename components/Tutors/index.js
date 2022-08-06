@@ -37,7 +37,7 @@ function Tutors() {
               <TutorCard name="Jinson Abraham" title="Senior Frontend Developer" profile="jinson"> 
                 <ul>
                   <li>10+ years of web-dev experience.</li>
-                  <li>Experienced in HTML,CSS,JS and ReactJS.</li>
+                  <li>Experienced in HTML,CSS,JS and ReactJS, NextJS.</li>
                   <li>Loves to teach. </li>
                   <li>Web tech Youtuber.</li>
                 </ul>
