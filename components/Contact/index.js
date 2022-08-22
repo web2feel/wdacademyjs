@@ -27,14 +27,15 @@ function Contact() {
               
                
                 <p className="text-xl my-2">Please note, a minimum knowledge in JavaScript language is expected from the students who wish to join this course.</p>
-                <a
+                {/* <a
                   href='https://pages.razorpay.com/reactrecipe'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='bg-sky-500 hover:bg-sky-600 transform-gpu duration-300 rounded-full py-3 px-12 mt-6 text-white font-bold text-lg'>
                   Join Now
-                </a>
-                
+                </a> */}
+                <p className="bg-yellow-300 p-3 rounded my-3">Classes started and Signups are closed now</p>
+                <p>For more info please contact <br/> Email: webdiaryacademy@gmail.com <br/> Whatsapp: 91-8714237826  </p>
       
             </div>
           </div>
