@@ -9,7 +9,7 @@ export const data = [
         thumb:"muhsin.png",
         name:"Muhsin MK",
         position:"React Developer",
-        location: "Kerala"
+        location: "Kochi"
     },
     {
         thumb:"fazeela.png",
@@ -31,6 +31,12 @@ export const data = [
     },
     {
         thumb:"",
+        name:"Vishnu",
+        position:"React Developer",
+        location: "Kochi"
+    },
+    {
+        thumb:"",
         name:"Mahir",
         position:"Web Developer",
         location: "Kerala"
@@ -39,6 +45,6 @@ export const data = [
         thumb:"",
         name:"Regina",
         position:"Web Developer",
-        location: "Kerala"
+        location: "Technopark, Trivandrum"
     },
 ]

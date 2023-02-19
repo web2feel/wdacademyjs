@@ -3,5 +3,6 @@ export const menuData = [
   "About",
   "Course details",
   "Testimonials",
+  "Placements",
   "Join Now",
 ];

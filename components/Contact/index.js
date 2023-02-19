@@ -21,10 +21,9 @@ function Contact() {
               </h3>
 
               <p className=' text-sm animate-bounce my-2 bg-yellow-100 px-4 py-2 border border-yellow-400 rounded-xl font-bold text-yellow-800'>
-                  Timing: 9:30PM - 10:30PM IST
+                 From March-13, 2023  Timing: 9:30PM - 10:30PM IST
               </p>
-
-              
+             
                
                 <p className="text-xl my-2">Please note, a minimum knowledge in JavaScript language is expected from the students who wish to join this ReactJS course.</p>
                 <a
