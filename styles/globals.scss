@@ -1,5 +1,5 @@
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
   @apply text-gray-600;
@@ -39,6 +39,22 @@ body {
       @apply bg-white;
     }
   }
+}
+
+#placements {
+  .swiper-container {
+    @apply pb-12;
+  }
+  .swiper-pagination {
+    @apply bottom-0 text-center;
+    .swiper-pagination-bullet {
+      @apply w-4 h-4 rounded-full border-2 border-white bg-sky-500 opacity-100 shadow-none;
+    }
+    .swiper-pagination-bullet-active {
+      @apply bg-white;
+    }
+  }
+
 }
 
 // .player-wrapper {

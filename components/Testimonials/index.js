@@ -11,7 +11,7 @@ function Testimonials() {
             <SectionTitle>
               Student <br /> Testimonials
             </SectionTitle>
-            <p className="w-4/5 mb-6">
+            <p className='w-4/5 mb-6'>
               Few testimonials from our last batch students.
             </p>
           </div>
@@ -23,6 +23,8 @@ function Testimonials() {
           </div>
         </div>
       </Section>
+
+  
     </div>
   );
 }
