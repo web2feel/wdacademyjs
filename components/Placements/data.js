@@ -15,13 +15,13 @@ export const data = [
         thumb:"fazeela.png",
         name:"Fazeela",
         position:"React Developer",
-        location: "Virtusa Bangalore"
+        location: "Virtusa - Bangalore"
     },
     {
         thumb:"",
         name:"Shaino",
         position:"React Developer",
-        location: "TCS Bangalore"
+        location: "TCS - Bangalore"
     },
     {
         thumb:"",
