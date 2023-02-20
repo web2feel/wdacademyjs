@@ -18,6 +18,12 @@ export const data = [
         location: "Virtusa - Bangalore"
     },
     {
+        thumb:"amal.png",
+        name:"Amal Fahad VA",
+        position:"React Developer",
+        location: "Ernakulam"
+    },
+    {
         thumb:"",
         name:"Shaino",
         position:"React Developer",

@@ -30,7 +30,7 @@ function Placement({ user }) {
         <div>
           <h3 className='text-2xl font-bold text-gray-800'>{user.name}</h3>
           <p className='text-sky-600 text-lg'>{user.position}</p>
-          <p> {user.location} </p>
+          <p> {user.location} </p>          
         </div>
       </div>
     </div>
