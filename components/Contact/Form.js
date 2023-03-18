@@ -71,6 +71,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         onClick={submit}>
         Signup
       </button>
+      
     </div>
   );
 };
