@@ -18,25 +18,34 @@ function Contact() {
           <div className='w-full flex-col sm:w-2/3'>
             <div className='flex flex-col justify-center'>
               <h3 className='text-3xl text-gray-800'>
-                Take your first step here 
+                Take your first step here
               </h3>
               {/* <p className=' text-sm animate-bounce my-2 bg-yellow-100 px-4 py-2 border border-yellow-400 rounded-xl font-bold text-yellow-800'>
                  From March-13, 2023  Timing: 9:30PM - 10:30PM IST
               </p>              */}
-               
-                {/* <p className="text-xl my-2">Please note, a minimum knowledge in JavaScript language is expected from the students who wish to join this ReactJS course.</p>
-                 */}
-                {/* <a
+
+              {/* <p className="text-xl my-2">Please note, a minimum knowledge in JavaScript language is expected from the students who wish to join this ReactJS course.</p>
+               */}
+              {/* <a
                   href='https://pages.razorpay.com/reactrecipe'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='bg-sky-500 hover:bg-sky-600 transform-gpu duration-300 rounded-full py-3 px-12 mt-6 text-white font-bold text-lg'>
                   Join Now
                 </a> */}
-                <p className="bg-yellow-300 p-3 rounded my-3"> Classes started and Signups are closed now </p>
-                <Mail />
-                <p className="mt-2"> For more info please contact <br/> Email: webdiaryacademy@gmail.com <br/> Whatsapp: 91-8714237826 </p>
-      
+              <p className='bg-yellow-300 p-3 rounded my-3'>
+                {" "}
+                Classes started and Signups are closed now. <br /> If you are
+                interested in joining upcoming batches, please fill the form
+                below and let us know.{" "}
+              </p>
+
+              <Mail />
+              <p className='mt-2'>
+                {" "}
+                For more info please contact <br /> Email:
+                webdiaryacademy@gmail.com <br /> Whatsapp: 91-8714237826{" "}
+              </p>
             </div>
           </div>
         </div>
